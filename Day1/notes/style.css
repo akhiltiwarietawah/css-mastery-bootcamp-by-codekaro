@@ -1,0 +1,92 @@
+/* whenever u have a class, it always starts with a dot */
+.abc{
+    color: red;
+}
+.center{
+    text-align: center;
+}
+
+/* div
+=> it is used to oraganize your code
+*/
+/* box model
+    border => thickness, style, color
+    padding => space inside the border
+    margin
+*/
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+.box{
+    border: 1px solid lightgray;
+    width: 300px;
+    padding: 10px;
+    margin: auto auto;
+    border-radius: 14px;
+}
+.box-img{
+    width: 100%;
+    border-radius: 14px;
+}
+.bg{
+    width:630px;
+    background-color: orangered;
+    margin: 60px auto;
+    padding:120px 60px;
+    color: white;
+    border-radius: 18px;
+}
+.btn{
+    background-color: white;
+    border: none;
+    padding: 16px 30px;
+    font-size: 16px;
+    border-radius: 40px;
+}
+
+.login{
+    width: 360px;
+    margin: 120px auto;
+}
+.input{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 12px;
+    box-sizing: border-box;
+    font-size: 14px;
+    border: 1px solid gray;
+}
+
+.login-btn{
+    width: 100%;
+    background-color: black;
+    color: white;
+    box-sizing: border-box;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+}
+.logo{
+    height:42px;
+    margin-bottom: 40px;
+}
+/* box-sizing: border-box ensures that the content does not go out of the parent 
+element when padding is applied */
+
+
+
+
+.card{
+    border: 1px solid lightgray;
+    width: 270px;
+    margin: 80px auto;
+    border-radius: 14px;
+}
+.card-img{
+    width: 100%;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+}
+.padding{
+    padding: 8px;
+}
